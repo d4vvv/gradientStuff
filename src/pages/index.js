@@ -21,7 +21,9 @@ export default function Home() {
       {topOnes.map(([color1, color2]) => (
         <Gradient color1={color1} color2={color2} textStyle={textStyle} />
       ))}
-      <div className={textStyle}>Lista pozostałych</div>
+      <div style={{ padding: '100px 0 0 0' }} className={textStyle}>
+        Lista pozostałych
+      </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8'>
         {gradients.map(([color1, color2]) => (
           <Gradient color1={color1} color2={color2} textStyle={textStyle} />
