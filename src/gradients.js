@@ -121,6 +121,12 @@ export const colorPairs = [
 ]
 
 export const topOnes = [
+  ['#2C2C2C', '#FF004D'],
+  ['#2C2C2C', '#FF2A6D'],
+  ['#2C2C2C', '#FF2A6D'],
+  ['#3A3A3A', '#FF004D'],
+  ['#3A3A3A', '#FF2A6D'],
+  ['#3A3A3A', '#FF2A6D'],
   ['#2D1A2C', '#FF004D'],
   ['#2D1A2C', '#FF2A6D'],
   ['#2D1A2C', '#FF2A6D'],
